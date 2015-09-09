@@ -14,8 +14,7 @@ html,body{
 .headerBar{
 	border:1px solid black;
 	height:70px;
-	background-color: #C2EBFF;
-	font-color:black;
+	background-color: #008FB2;
 }
 .bodyWrapper{
 	border:0px solid black;
@@ -41,15 +40,13 @@ html,body{
 	padding-right: 0px;
 }
 .menuLinks{
-	font-color: black;
-
 	margin-right: 10px;
 	margin-left:10px;
 	width:120px;
 	text-align: center;
 	display: inline-block;
 	line-height: 70px;
-	}
+}
 .logoImg{
 	margin-top: 0px;
 	height: 70px;
@@ -70,7 +67,7 @@ html,body{
 
 	height:200px;
 	margin-bottom: 15px;
-	/*border:1px solid #C2EBFF;*/
+	border:1px dashed black;
 	width:200px;
 }
 .footerbg{
@@ -114,29 +111,17 @@ footer{
 	float: right;
 	width: 30vw;
 margin-top: 30px;
-background-color: #008FB2;
+background-color: #33CCFF;
 }
 
 .containerconvobox{
 	float: middle;
 	width: 30vw;
 margin-top: 0px;
-background-color: white;
+background-color: #33CCFF;
 float:top;
-height: 350px;
-border:1px solid #C2EBFF;
 }
 
-.convoboxcontent{
-	float:bottom;
-	margin-top:100px;
-
-}
-
-.convoboxcontent2{
-	float-bottom;
-	margin-top:175px;
-}
 
 .jumbotron{
 	background-color:white;
@@ -145,31 +130,7 @@ border:1px solid #C2EBFF;
 .listofconversations{
 	height:100px;
 	margin-bottom: 15px;
-	border:1px solid #C2EBFF;
+	border:1px dashed black;
 	width:400px;
 }
 
-.background{
-	 position: relative;
-    background: #000 url("ocean.jpg") center center;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    overflow: hidden;
-
-
-
-}
-
-h1{
-	position: absolute;
-	top:100px;
-	left:0;
-	color:white;
-}
-h4{
-	position: absolute;
-	top:500px;
-	left:0;
-	color:white;
-}
