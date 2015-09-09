@@ -1,0 +1,106 @@
+html,body{
+	height:100%;
+	width:100%;
+}
+.container{
+	width: 66vw;
+	margin: 0;
+	padding: 0;
+}
+.mainWrapper{
+	background-color: #fff;
+	min-height: 100%;
+}
+.headerBar{
+	border:1px solid black;
+	height:70px;
+	background-color: #999;
+}
+.bodyWrapper{
+	border:0px solid black;
+	background-color: #dedede;
+	 overflow:auto;
+	min-height:600px;
+}
+.footer{
+	border:1px solid black;
+	height:60px;
+}
+.header{
+	height:70px;
+}
+.border{
+	border:0px solid black;
+}
+.border-dashed{
+	border:1px dashed black;
+}
+.noPadding{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.menuLinks{
+	margin-right: 10px;
+	margin-left:10px;
+	width:120px;
+	text-align: center;
+	display: inline-block;
+	line-height: 70px;
+}
+.logoImg{
+	margin-top: 0px;
+	height: 70px;
+}
+.menuSm{
+	width:100%;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.galleryBody{
+	padding-bottom: 40px;
+	width: 100%;
+	}
+
+.galleryIMG{
+	height:200px;
+	margin-bottom: 15px;
+	border:1px dashed black;
+	width:200px;
+}
+.footerbg{
+	background-color: #999;
+}
+footer{
+	text-align: center;
+	padding-top: 20px;
+	background-color: #999;
+	padding-bottom: 20px;
+}
+
+.usericon{
+	height: 40px;
+	width: 40px;
+}
+
+.nav-items {
+	float: right;
+}
+
+.userSection {
+	width: 200px;
+}
+
+.userSection img, .userSection h2{
+	display: inline-block;
+}
+
+.shopping{
+	padding-top: 0px;
+}
+
+.containerteleport{
+	float: right;
+	width: 25vw;
+margin-top: 80px;
+}
