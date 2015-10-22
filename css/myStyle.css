@@ -1,6 +1,8 @@
 html,body{
 	height:100%;
 	width:100%;
+	background-image: url("img/twilight_sky.jpg");
+	background-repeat: no-repeat;
 }
 .container{
 	width: 66vw;
@@ -8,19 +10,51 @@ html,body{
 	padding: 0;
 }
 .mainWrapper{
-	background-color: white;
+	background-color: black;
 	min-height: 100%;
 }
 .headerBar{
-	border:1px solid black;
-	height:70px;
-	background-color: #008FB2;
+	border:none;
+	height:100px;
+	background-color: #000047;
+	font-color:black;
 }
 .bodyWrapper{
 	border:0px solid black;
 	background-color: white;
 	 overflow:auto;
 	min-height:600px;
+}
+.background{
+/*	position: relative;
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    border:0px;
+    margin:0px;
+*/
+
+
+ position: absolute;
+    background: url("img/twilight_sky.jpg") center center;
+    width: 100%;
+    height: 100%;
+    top:10;
+    left:0;
+    background-size: cover;
+  /*  overflow: hidden;*/
+
+
+
+}
+.marginFix{
+	margin:-15px; 
+}
+.widget{
+	padding-top:100px;
+	
 }
 .footer{
 	border:1px solid black;
@@ -38,15 +72,18 @@ html,body{
 .noPadding{
 	padding-left: 0px;
 	padding-right: 0px;
+	margin-bottom: -17px;
 }
 .menuLinks{
+	font-color: black;
+
 	margin-right: 10px;
 	margin-left:10px;
 	width:120px;
 	text-align: center;
 	display: inline-block;
 	line-height: 70px;
-}
+	}
 .logoImg{
 	margin-top: 0px;
 	height: 70px;
@@ -67,7 +104,7 @@ html,body{
 
 	height:200px;
 	margin-bottom: 15px;
-	border:1px dashed black;
+	/*border:1px solid #C2EBFF;*/
 	width:200px;
 }
 .footerbg{
@@ -90,7 +127,6 @@ footer{
 	width: 40px;
 }
 
-
 .nav-items {
 	float: right;
 }
@@ -111,17 +147,28 @@ footer{
 	float: right;
 	width: 30vw;
 margin-top: 30px;
-background-color: #33CCFF;
+background-color: #008FB2;
 }
 
 .containerconvobox{
 	float: middle;
 	width: 30vw;
 margin-top: 0px;
-background-color: #33CCFF;
+background-color: white;
 float:top;
+height: 350px;
+border:1px solid #C2EBFF;
 }
 
+.convoboxcontent{
+	float:bottom;
+	margin-top:100px;
+}
+
+.convoboxcontent2{
+	float-bottom;
+	margin-top:175px;
+}
 
 .jumbotron{
 	background-color:white;
@@ -130,7 +177,21 @@ float:top;
 .listofconversations{
 	height:100px;
 	margin-bottom: 15px;
-	border:1px dashed black;
+	border:1px solid #C2EBFF;
 	width:400px;
 }
 
+
+
+h1{
+	position: absolute;
+	top:100px;
+	left:0;
+	color:white;
+}
+h4{
+	position: absolute;
+	top:500px;
+	left:0;
+	color:white;
+}
