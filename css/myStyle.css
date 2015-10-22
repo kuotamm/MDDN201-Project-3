@@ -14,9 +14,15 @@ html,body{
 	min-height: 100%;
 }
 .headerBar{
+<<<<<<< HEAD
 	border:none;
 	height:100px;
 	background-color: #000047;
+=======
+	border:1px solid black;
+	height:70px;
+	background-color: #C2EBFF;
+>>>>>>> origin/master
 	font-color:black;
 }
 .bodyWrapper{
@@ -158,6 +164,7 @@ background-color: white;
 float:top;
 height: 350px;
 border:1px solid #C2EBFF;
+<<<<<<< HEAD
 }
 
 .convoboxcontent{
@@ -165,6 +172,16 @@ border:1px solid #C2EBFF;
 	margin-top:100px;
 }
 
+=======
+}
+
+.convoboxcontent{
+	float:bottom;
+	margin-top:100px;
+
+}
+
+>>>>>>> origin/master
 .convoboxcontent2{
 	float-bottom;
 	margin-top:175px;
@@ -181,8 +198,23 @@ border:1px solid #C2EBFF;
 	width:400px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+.background{
+	 position: relative;
+    background: #000 url("ocean.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+
+
+
+}
+
+>>>>>>> origin/master
 h1{
 	position: absolute;
 	top:100px;
