@@ -27,7 +27,7 @@ html,body{
 }
 .bodyWrapper{
 	border:0px solid black;
-	background-color: white;
+	background-color: black;
 	 overflow:auto;
 	min-height:600px;
 }
@@ -59,7 +59,8 @@ html,body{
 	margin:-15px; 
 }
 .widget{
-	padding-top:100px;
+	padding-top:60px;
+	padding-left:40px;
 	
 }
 .footer{
@@ -153,17 +154,17 @@ footer{
 	float: right;
 	width: 30vw;
 margin-top: 30px;
-background-color: #008FB2;
+background-color: #000;
 }
 
 .containerconvobox{
 	float: middle;
 	width: 30vw;
 margin-top: 0px;
-background-color: white;
+background-color:black;
 float:top;
 height: 350px;
-border:1px solid #C2EBFF;
+border:0px solid #C2EBFF;
 <<<<<<< HEAD
 }
 
@@ -188,7 +189,7 @@ border:1px solid #C2EBFF;
 }
 
 .jumbotron{
-	background-color:white;
+	background-color:black;
 }
 
 .listofconversations{
@@ -214,10 +215,10 @@ border:1px solid #C2EBFF;
 
 }
 
->>>>>>> origin/master
+
 h1{
 	position: absolute;
-	top:100px;
+	top:150px;
 	left:0;
 	color:white;
 }
@@ -227,3 +228,13 @@ h4{
 	left:0;
 	color:white;
 }
+
+h2{
+	color:black;
+}
+
+
+h3{
+	color:white;
+}
+
